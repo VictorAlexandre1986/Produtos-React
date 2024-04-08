@@ -1,0 +1,64 @@
+{
+  "produtos": [
+    {
+      "id": "1",
+      "nome": "camisa gola v",
+      "preco": 50,
+      "categoria": "camisa"
+    },
+    {
+      "id": "2",
+      "nome": "camisa gola normal",
+      "preco": 40,
+      "categoria": "camisa"
+    },
+    {
+      "id": "3",
+      "nome": "calça jeans tradicional",
+      "preco": 100,
+      "categoria": "calça"
+    },
+    {
+      "id": "4",
+      "nome": "calça sarja caqui",
+      "preco": 120,
+      "categoria": "calça"
+    },
+    {
+      "id": "5",
+      "nome": "bermuda sarja",
+      "preco": 90,
+      "categoria": "bermuda"
+    },
+    {
+      "id": "6",
+      "nome": "cueca box",
+      "preco": 20,
+      "categoria": "cueca"
+    },
+    {
+      "id": "7",
+      "nome": "tenis olimpikus",
+      "preco": 200,
+      "categoria": "calçado"
+    },
+    {
+      "id": "8",
+      "nome": "bota macboot",
+      "preco": 300,
+      "categoria": "calçado"
+    },
+    {
+      "id": "c1bd",
+      "nome": "camisa branca",
+      "preco": "30.50",
+      "categoria": "camisa"
+    },
+    {
+      "id": "710e",
+      "nome": "Camisa Preta",
+      "preco": "50.23",
+      "categoria": "camisa"
+    }
+  ]
+}
