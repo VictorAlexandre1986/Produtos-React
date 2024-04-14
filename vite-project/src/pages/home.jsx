@@ -7,7 +7,13 @@ const url = "http://localhost:3000/produtos";
 function Home() {
   const [produtos, setProdutos] = useState([]);
   
-  const {data, loading, erro, httpConfig} = useFetch(url); 
+  let {data, loading, erro, httpConfig} = useFetch(url); 
+
+  useEffect(() => {
+    if (data) {
+      setProdutos(data);
+    }
+  }, [data]);
 
 
 const handleDelete = async (id) => {
@@ -41,7 +47,7 @@ const handleDelete = async (id) => {
           </tr>
         </thead>
         <tbody>
-          {data?.map((item)=>(
+          {produtos?.map((item)=>(
             <tr key={item.id}>
               <td>{item.nome}</td>
               <td>{item.preco}</td>
